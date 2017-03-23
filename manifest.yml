@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: PHPTestLCS
+  host: PHPTestLCS
+  disk_quota: 1024M
+  services:
+  - Natural Language Classifier-cd
+  - availability-monitoring-auto
